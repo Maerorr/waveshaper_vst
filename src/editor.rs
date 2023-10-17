@@ -37,7 +37,7 @@ pub(crate) fn create(
             ResizeHandle::new(cx);
 
             VStack::new(cx, |cx: &mut Context| {
-                Label::new(cx, "FLANGER/VIBRATO")
+                Label::new(cx, "WAVESHAPER")
                 .font_family(vec![FamilyOwned::Name(String::from(
                     assets::NOTO_SANS_THIN,
                 ))])
